@@ -12,7 +12,7 @@ export default function App() {
         img={card.coverImg}
         rating={card.stats.rating}
         location={card.location}
-        title={card.location}
+        title={card.title}
         price={card.price}
         reviewCount={card.stats.reviewCount}
       />
