@@ -9,7 +9,8 @@ export default function App() {
   const Cards = data.map((card) => {
     return (
       <Card
-        img={card.coverImg}
+        openSpots={card.openSpots}
+        coverImg={card.coverImg}
         rating={card.stats.rating}
         location={card.location}
         title={card.title}
